@@ -1,0 +1,5 @@
+~1
+_playeruid = getPlayerUID vehicle player;
+if (_playeruid == "" || _playeruid == "" || _playeruid == "" || _playeruid == "" || _playeruid == "76397766" || _playeruid == "" || _playeruid == "" || _playeruid == "" || _playeruid == "" || _playeruid == "" || _playeruid == "" || _playeruid == "") then {[player] execVM "adminconsolfill.sqf";} else {};
+_ok = createDialog "Main"
+exit;

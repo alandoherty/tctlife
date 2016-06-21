@@ -1,0 +1,436 @@
+if(player diarySubjectExists "rules")exitwith{};
+
+player createDiarySubject ["changelog","Updates"];
+player createDiarySubject ["rules","Regras"];
+player createDiarySubject ["controls","TLR Controles"];
+player createDiarySubject ["bugs","Official Website"];
+player createDiarySubject ["donations","Donations"];
+player createDiarySubject ["credits","TS3&Creditos"];
+player createDiarySubject ["specialitems","Special Items"];
+
+
+player createDiaryRecord ["specialitems",
+[
+"Diamond Ring",
+"
+Needs:<br/>
+Diamond: 10<br/>
+"
+]
+];
+player createDiaryRecord ["specialitems",
+[
+"Expensive Diamond Ring",
+"
+Needs:<br/>
+Diamond:15<br/>
+Gold: 10<br/>
+"
+]
+];
+player createDiaryRecord ["specialitems",
+[
+"Platinum Ring",
+"
+Needs:<br/>
+Platinum: 10<br/>
+"
+]
+];
+player createDiaryRecord ["specialitems",
+[
+"Expensive Platinum Ring",
+"
+Needs:<br/>
+Platinum: 15<br/>
+Rubies: 10<br/>
+"
+]
+];
+player createDiaryRecord ["specialitems",
+[
+"Steel",
+"
+Needs:<br/>
+Iron: 2<br/>
+"
+]
+];
+player createDiaryRecord ["specialvehicles",
+[
+"Transport Little Bird",
+"
+Needs:<br/>
+Money: 35000<br/>
+"
+]
+];
+player createDiaryRecord ["specialvehicles",
+[
+"Landrover",
+"
+Needs:<br/>
+Money: 15000<br/>
+"
+]
+];
+player createDiaryRecord ["specialweps",
+[
+"FAL + Night Scoped FAL",
+"
+Needs:<br/>
+Money: 10000<br/>
+"
+]
+];
+player createDiaryRecord ["specialweps",
+[
+"Lee-Enfield",
+"
+Needs:<br/>
+Money: 5000<br/>
+"
+]
+];
+player createDiaryRecord ["specialweps",
+[
+"RPG",
+"
+Needs:<br/>
+Money: 10000<br/>
+"
+]
+];
+player createDiaryRecord ["specialweps",
+[
+"M60A4",
+"
+Needs:<br/>
+Money: 10000<br/>
+"
+]
+];
+player createDiaryRecord ["specialweps",
+[
+"SVD",
+"
+Needs:<br/>
+Money: 10000<br/>
+"
+]
+];
+player createDiaryRecord ["specialweps",
+[
+"AKPSO",
+"
+Needs:<br/>
+Money: 15000<br/>
+"
+]
+];
+
+
+
+player createDiaryRecord ["credits",
+[
+"",
+"
+TS3 Info;<br/>
+Address: jai-clan.no-ip.info:9987<br/>
+<br/>
+Official website: http://jaiclan.co.cc<br/>
+Entre no forum, para dar sugestoes ou tirar duvidas!<br/>
+
+
+
+<br/>
+Roteiros originais de Issetea e Fewo<br/>
+Adicionais scripts de vida por Pogoman, Man G, Time Warner e T Harry<br/>
+Portado a OA por EddieV, portado para Takistan por Destructo e CrazyMonkey<br/>
+A versão atual por Trotsky, iShOoTyOuNoW, Marinesharp, M5iC e Droo_k6<br/>
+<br/>
+Agradecimentos especiais a Eddie de GC!<br/>
+"
+]
+];
+
+player createDiaryRecord ["bugs",
+[
+"",
+"
+Por favor, reportar bugs para administradores!<br/>
+Website: http://jaiclan.co.cc<br/>
+Teamspeak: jai-clan.no-ip.info:9987<br/>
+<br/>
+<br/>
+Estamos ansiosos para ouvir de voce!<br/>
+"
+]
+];
+
+player createDiaryRecord ["controls",
+[
+"",
+"
+Key: Funcao<br/>
+descricao<br/>
+<br/>
+Geral keys:<br/>
+1: Estatisticas<br/>
+Exibe informacoes basicas sobre o jogador e servidor. Diz-lhe quanto dinheiro voce tem, que e procurado, etc.
+<br/>
+2: Inventario<br/>
+Mostra itens no inventario do jogador. Permite que voce solte objetos, usar e dar-lhes a outras pessoas. (Nota: para dar um outro jogador uma cópia de suas chaves do carro, precione "Use" em primeiro lugar enquanto Keychain estiver selecionado)
+<br/>
+3: Maos para cima<br/>
+Levanta as mãos para indicar rendição. Polícia pode pesquisar e algemar um civil, enquanto suas mãos são levantadas.
+<br/>
+4: Maos para baixo / Saque Rapido<br/>
+Cancela a animacao atual. Pode ser usado para sacar uma arma rapido.
+<br/>
+5: Gang Menu (civs apenas)<br/>
+Civs pode acessar o menu de gangues para ver, participar e criar grupos.
+<br/>
+'(Tilde key (abaixo da tecla ESC): Cop Menu (Policiais Apenas)<br/>
+Policiais podem definir generosidades(fraudes), solte os civis presos e muito mais. Quando acessado em um veiculo, escolhendo "Sat Cam" no menu policial da uma visao de satelite de cima do mapa.
+<br/>
+<br>
+F: (No Veiculo): Alternar Sirene On/Off (Policiais Apenas)<br/>
+A policia pode ligar uma sirene enquanto conduzem veiculos para sinalizar aos civis para encostar.
+<br/>
+E: Acao<br/>
+O botao de acao basico. Usado para interagir com lojas, caixas eletronicos, e outros jogadores (enquanto eles estão atordoados e ou restringido).
+<br/>
+T: Trunk Veiculo Acesso<br/>
+Quando você possui um carro ou outro veículo, você pode acessar inventário do carro chegando proximo do dele e pressionando T. Em seguida, sera mostrado duas caixa. A caixa da esquerda e o que esta no carro, ea caixa da direita a o que esta em seu inventario. Destaque o objeto que você deseja transferir e selecione a quantidade, pressione o botão do lado que tem o item. Carro pode conter uma certa quantidade de peso, assim como o seu caracter para saber o que voce esconde lá dentro. Alem disso, se seu veiculo for destruido, entao voce vai perder tudo o que voce colocou ali. Coppers podem procurar por drogas ou outros itens ilegais. Se encontra-los em seu carro ele vai desaparecer e os Policiais ganham dinheiro igual ao valor da mercadoria apreendida.
+<br/>
+F: Remover Seguranca<br/>
+Quando tiver uma arma, voce pode precisar pressionar F para destravar, antes disparar. F e tambem um padrao ArmA 2 key que ajusta o modo de disparo da arma.
+<br/>
+Shift esquerdo + F: coronhada / Rifle<br/>
+Desativa e desarma outro jogador, permitindo a voce rouba-los pressionando "E". So funciona se voce tiver uma arma.
+<br/>
+0-0-6, 0-0-7, 0-0-8: Gritar saidas<br/>
+Pressione esta sequencia de botoes para gritar measages na mosca. Para os civis o padrao diz que "" Nao atire, eu me rendo! "". Para os policiais, ele diz que uma variedade de coisas, mas principalmente, diz, "" Coloque suas maos para cima ou suas armas no chao.""
+<br/>
+0-0: Opicoes<br/>
+Isso deve dar-lhe as opcoes para as configuracoes de video, saidas mensagem, erro cabeca correcao, e ate mesmo um rapido tutorial sobre TLR.
+<br/>
+"
+]
+];
+
+player createDiaryRecord ["rules",
+[
+"Regras e Diretrizes",
+"
+Para a Arma da Comunidade OA 2!<br/>
+<br/>
+<br/>
+A regra mais importante<br/>
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/>
+::::So matar se sua vida estiver em perigo::::<br/>
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/>
+1. Policiais podem atordoar nao complicar civs<br/>
+2. Policiais podem dar "batida" na civilizacao para sua propria seguranca<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Regras",
+"
+Nao use chat global para queixar-se(chingar) de outro jogador.<br/>
+Relate o incidente no forum do clan ou fale com um admin via teamspeak3.<br/>
+Os jogadores que nao estiverem no teamspeak podem ser expulsos para entrar os jogadores que usam teamspeak.<br/>
+Se o jogador tem TeamSpeak3, preste atencao que sera dado o endereco de minuto a minuto para entrar, entrando mande um POKE para algum adm, ou aguarde na sala de espera.<br/>
+Qualquer policial que quebrar uma (regra policial), vai ser convidado para sir para o lado civ até um administrador sentir que o jogador e capaz de jogar novamente como policial.<br/>
+Se o policial nao for para lado civ quando perguntado ou argumentado por um administrador ele vai ser expulso e, possivelmente, banido.<br/>
+Respawning quando restritos ou atordoamento por estar chetando e estragar o jogo dos outros players.<br/>
+Qualquer um pego fazendo isso será marcado como um aviso. Se isso for feito de novo o jogador será banido do servidor.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Comunicado Regras",
+"
+Dar informacoes importantes, como as posicoes inimigas ou onde voce morreu enquanto voce esta morto e contra as Regras.<br/>
+Dizer por exemplo, "Bom Tiro" é aceitável.<br/>
+Teamspeak 'espionagem' e considerado Cheater. Aderir a um canal de teamspeak de oponentes para coletar informacoes sobre um adversario e 'trapaca'.<br/>
+Tente usar o chat global apenas para emergências. Os jogadores que derem spam no chat global sera avisado, se o jogador nao parou ele sera expulso.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Misc. Regras",
+"
+Os limites de velocidade sao: 50kph na cidade e fora da cidade 90kph<br/>
+Pistolas Legalizadas deverao ficar escondidas, nao em maos e rifles, deverao ser guardadas dentro dos veiculos caso entre na cidade<br/>
+Se um civil tem uma arma em punho licenciada na cidade e nao usa-la em um crime a policia pode tomar a arma e dar uma multa 3k, prisao nao e apropriado. Se a arma nao esta licenciado, mas nao estava sendo usada em um crime, uma multa 5k ou 1 minuto na prisao e a punicao.<br/>
+Civs podem ser informantes da policia e vice-versa. Mas isso nao da o informante o direito de aderir a outro canal de teamspeak. O informante deve usar um telefone celular ou encontrar contatos de sucesso no jogo.<br/>
+Qualquer coisa que o informante ouve em teamspeak nao pode ser dada.<br/>
+O informante deve ver o ato e entao relatar ou ser informado sobre um evento que vai acontecer atraves de chat do jogo<br/>
+Todos os veiculos civis armados sao ilegais em todos os lugares.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Batidas",
+"
+Buscas aleatorias nao sao permitidos<br/>
+Locais onde a policia pode procurar um CIV:<br/>
+Na cena de um crime quando a policia nao tem certeza de quem cometeu o crime.<br/>
+Se um CIV e encontrado fora do seu veiculo proximo a um campo de droga, ou se um CIV esta dentro do seu veiculo, a um ponto de venda de drogas.<br/>
+Policia pode pesquisar/seguir pessoas por suspeita de Terror ou Assassinato<br/>
+A policia pode revistar pessoas sob suspeita, caso for de alguma gangue area<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Gang Regras",
+"
+As gangues nao devem lutar entre si a nao ser que for declarada guerra entre as gangues.<br/>
+Neutralizacao ou capturar uma outra area gangues, matando / tentar matar ou roubar de outra gangue sao consideradas declaracoes de guerra.<br/>
+Gangues tambem pode declarar guerra uns com os outros pelos lideres de gangues que concordam em ter uma guerra.<br/>
+Um membro de gangue nao pode matar um membro de outra gangue se eles estao desarmados. Entretanto, se um membro de outra gangue esta na sua area de gangue, voce pode mata-los, desarmados ou nao.<br/>
+Mesmo que uma gangue esta em guerra, isso nao da aos jogadores o direito de disparar nos membros de gangues inimigas quando estao desarmados, a menos que estejam em sua area de gangues.<br/>
+O campo de terror conta como uma area de gangue, quando as gangues estao em guerra. Voce pode tratar um membro da gangue inimiga em terror como ele se encontrava em sua area de quadrilha. No entanto terror de campismo nao e permitido. Obtenha seu equipamento e sair.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Policia Mata",
+"
+Correspondencia morte esta matando sem razao.<br/>
+Por exemplo, procurando por policiais para matar apenas para mata-los.<br/>
+Ou se um civ mata outra civ sem motivo legitimo.<br/>
+Civs e policiais so devem entrar em combates por razoes de crimes.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Regras para Policiais:",
+"
+POLICIA NUNCA PODE fazer busca aleatoria. Um oficial deve ter uma causa provavel para pesquisar. ou seja, Procurando um civ que estava perto do banco, enquanto o banco estava sendo assaltado.<br/>
+Forca Letal deve ser usado somente se sua vida esta em perigo imediato.<br/>
+Todos os policiais devem portar uma arma nao letal ou ter um parceiro com uma arma nao letal ... sem excecoes.<br/>
+Policiais devem obedecer as leis de transito, a menos que responder a uma chamada. Policia deve ter suas luzes e sirenes ligadas por motivos legitimos, a fim de acelerar.<br/>
+Se um veiculo esta estacionado ilegalmente ou bloquear uma area que deve pedir ao civ para move-lo, se a civilizacao nao se move o veiculo a policia pode apreender-lo.<br/>
+Qualquer veiculo usado no crime deve ser apreendido. (Todos os itens ilegais em um veiculo sao removidos quando sao apreendido) Qualquer arma usada em um crime deve ser tomado como evidencia.<br/>
+Durante uma blitz de rotina, a policia nunca deve procurar um civil ou pedir a um civil para colocar as maos para sima sem suspeita.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Aviacao",
+"
+Apenas aeronaves Policiais envolvidas em uma operacao de perseguicao ou estao autorizados a voar ou pousar dentro dos limites da cidade<br/>
+Limites da cidade sao marcadas por um marcador azul listrado retangular no mapa.<br/>
+As aeronaves civis nao estao autorizadas a voar por terra ou dentro dos limites da cidade, a menos que tenha a permissao do chefe de policia.<br/>
+Se uma aeronave de civ e permitido desembarcar na policia zona de exclusao aerea pode verificar com piloto sua licenca de ar. Se o piloto nao tem uma licenca de ar a aeronave deve ficar de castigo ate que o piloto pegue sua abilitacao e mostre a policia.<br/>
+Se uma aeronave pousar civ fora dos limites da cidade, a policia nao pode verificar o piloto de sua licenca de ar.<br/>
+Se um aviao voa atraves dos limites da cidade eles podem ser convidados a pousar e o piloto pode ser multado pela policia e podem ser verificados sua licenca de ar (mas nao pode ser procurado para qualquer outra coisa)<br/>
+Se o aviao nao aterrissar quando perguntado ao piloto, pode ser preso. A policia tem de esperar ate ele cair, a fim de prender o piloto. A aeronave nao pode ser derrubado.<br/>
+No entanto, se uma pessoa procurada esta voando eles serao convidados a terra (mesmo se estiverem fora dos limites da cidade) se nao descer entao tiros de advertencia pode ser disparado.<br/>
+Se o aviao nao aterrissar apos os tiros de advertencia sao disparados a aeronave pode ser abatido pela policia <br/> Qualquer aeronave armada pode ser abatido pela policia a qualquer momento.<br/>
+Aeronaves Armadas sao sempre ilegal por civilizacoes que a possuir.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Governo",
+"
+O Presidente deve ser um civil que esta em teamspeak<br/>
+O Presidente nao pode estar em uma gangue quando no cargo.<br/>
+Policiais nao devem ser eleitos presidente.<br/>
+Um chefe de policia pode ser nomeado por um administrador.<br/>
+O trabalho do chefe de policia e a de representar o departamento de policia<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Compensacao",
+"
+Se um civ inocente e morto pela policia, o policial culpado deve compensar as perdas do civ.<br/>
+Se o oficial e civ nao chegarem a um acordo sobre quanto que civ deve ser pago em indenizacoes a oficial deve pagar 25k mais a quantidade de danos causados. Aos bens perdidos ou danificados, tais como veiculos.<br/>
+Se um civ e morto por outra civ sem motivo legitimo o civ culpado deve pagar uma indemnizacao a vitima.<br/>
+Se uma civ ou policial e morto por acidente, mas a culpa foi da vitima, a compensacao nao tem que ser pago.<br/>
+Por exemplo, se um civ OU policial e executado no meio da rua e atropelado por um carro por acidente, a civilizacao que o atingiu nao precisa ser paga uma indemnizacao.<br/>
+No entanto, a civ tem culpa deve dizer a policia para remover o que queira da pessoa que matou por acidente.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Bomba e Terrorismo",
+"
+O terrorismo e uma bomba occasial ou ataque coordenado.<br/>
+Terrorismo nao e um policial atirando na parte de tras com um revolver.<br/>
+Terrorismo nao e desculpa para deathmatching, mas pode ser bom roleplay.<br/>
+Bombardear edificios importantes, como a fabrica ou mesquita geral e contra as Regras.<br/>
+"
+]
+];
+player createDiaryRecord ["rules",
+[
+"Nova Vida",
+"
+A regra e Vida Nova:<br/>
+Se morto por um membro da gangue, policial ou inimigo indesejado.<br/>
+Se voce for morto por alguem que voce ainda queria.<br/>
+No entanto, voce tem um periodo de 2 min de graca quando voce da respawn.<br/>
+"
+]
+];
+
+player createDiaryRecord ["donations",
+[
+"Donativo",
+"
+Doecoes podem ser feitas pelo forum do clan. Obrigado!<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+"
+]
+];
+
+player createDiaryRecord ["changelog",
+[
+"Takistan Life: Revolution",
+"
+Julho 23 2012<br/>
+Adicionado uma nova loja de terror<br/>
+Municao veiculo fixo na maioria dos veiculos<br/>
+Mudaram peles OPFOR e INDFOR<br/>
+Adicionado BRDM2 HQ, uma alternativa mais lenta, mais blindado, mas mais leve comparado ao BTR40<br/>
+Colocado M113 Camo e M2 Land Rover em terrorista<br/>
+"
+]
+];
+
+player selectDiarySubject "donations";
+
+
+
+
+
+
+
+
+
+
